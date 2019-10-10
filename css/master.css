@@ -1,0 +1,133 @@
+.playerText {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+.scoreText {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+.btnText {
+  background: none;
+  border: 0;
+  font-size: 22px;
+  color: white;
+  height: 22px;
+}
+.btnText:hover {
+  font-weight: 600;
+}
+* {
+  font-family: verdana;
+}
+body {
+  background: #477148;
+}
+.grid {
+  display: grid;
+  margin: auto;
+  padding-top: 5%;
+  width: 900px;
+  height: 600px;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+.grid > div {
+  background-color: transparent;
+}
+.logo {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.logo img {
+  max-height: 100px;
+}
+.player1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+.player2 {
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+.card1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.card1 img {
+  max-height: 300px;
+  min-height: 100px;
+}
+.card2 {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.card2 img {
+  max-height: 300px;
+  min-height: 100px;
+}
+.buttons {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.buttons .btns {
+  display: grid;
+  height: 100%;
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+.buttons .btns button {
+  background: none;
+  border: 0;
+  font-size: 22px;
+  color: white;
+  height: 22px;
+}
+.buttons .btns button:hover {
+  font-weight: 600;
+}
+.score1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+.score1 p {
+  font-size: 40px;
+  margin-top: 0px;
+}
+.score2 {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+.score2 p {
+  font-size: 40px;
+  margin-top: 0px;
+}
