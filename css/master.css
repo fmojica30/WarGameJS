@@ -10,6 +10,13 @@
   grid-template-columns: 1fr;
   grid-replate-rows: 1fr, 2fr;
 }
+.winText {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
 .btnText {
   background: none;
   border: 0;
@@ -144,10 +151,24 @@ body {
   grid-row-start: 3;
   grid-row-end: 4;
 }
-.winner h3 {
+.winHead1 {
+  margin-top: 15px;
   text-align: center;
   color: white;
-  font-size: 25px;
-  grid-template-columns: 1fr;
-  grid-replate-rows: 1fr, 2fr;
+  font-size: 22px;
+  margin-bottom: 2px;
+}
+.winHead2 {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.pWin {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
